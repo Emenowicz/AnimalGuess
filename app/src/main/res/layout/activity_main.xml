@@ -7,49 +7,49 @@
     tools:context="com.example.dawidmichalowicz.animalguess.MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/chickenButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/bird"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
-        app:layout_constraintRight_toLeftOf="@+id/imageButton3"
+        app:layout_constraintBottom_toTopOf="@+id/dogButton"
+        app:layout_constraintRight_toLeftOf="@+id/catButton"
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/catButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/cat"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintBottom_toTopOf="@+id/duckButton"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/cowButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/cow"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
-        app:layout_constraintLeft_toRightOf="@+id/imageButton3"
+        app:layout_constraintBottom_toTopOf="@+id/elephantButton"
+        app:layout_constraintLeft_toRightOf="@+id/catButton"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/dogButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/dog"
@@ -57,14 +57,14 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintRight_toLeftOf="@+id/imageButton6"
+        app:layout_constraintRight_toLeftOf="@+id/duckButton"
         android:layout_marginRight="8dp"
         app:layout_constraintVertical_bias="0.501"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/duckButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/duck"
@@ -79,7 +79,7 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/elephantButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/elephant"
@@ -87,33 +87,33 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toRightOf="@+id/imageButton6"
+        app:layout_constraintLeft_toRightOf="@+id/duckButton"
         android:layout_marginLeft="8dp"
         app:layout_constraintVertical_bias="0.501"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/fishButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/fish"
-        app:layout_constraintRight_toLeftOf="@+id/imageButton9"
+        app:layout_constraintRight_toLeftOf="@+id/horseButton"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/dogButton"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/horseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/horse"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/duckButton"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         android:layout_marginRight="8dp"
@@ -123,15 +123,15 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/lionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/lion"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/elephantButton"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toRightOf="@+id/imageButton9"
+        app:layout_constraintLeft_toRightOf="@+id/horseButton"
         android:layout_marginLeft="8dp"
         app:layout_constraintVertical_bias="0.51"
         android:layout_marginRight="8dp"
@@ -145,7 +145,7 @@
         app:layout_constraintGuide_percent="0.33" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/playButton"
         android:layout_width="206dp"
         android:layout_height="59dp"
         android:scaleType="fitCenter"
@@ -161,9 +161,9 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="78dp"
-        android:layout_height="78dp"
+        android:id="@+id/answerimageView"
+        android:layout_width="104dp"
+        android:layout_height="93dp"
         app:srcCompat="@drawable/question"
         android:scaleType="fitCenter"
         app:layout_constraintTop_toTopOf="parent"
@@ -172,7 +172,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton12"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintBottom_toTopOf="@+id/playButton" />
 </android.support.constraint.ConstraintLayout>
